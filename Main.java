@@ -19,11 +19,9 @@ public class Main {
                     array[i] = Integer.parseInt(str[i]);
                 }
 
-                //
                 double start = System.nanoTime();
                 int k = MergeSort.mergeSort(array, array.length);
                 double end = System.nanoTime();
-                //
 
                 System.out.println(str.length + ": " + (end-start)  + " наносекунд " + k + " итераций");
 
